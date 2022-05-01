@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Menu Calculadora</h1>
+	<ul>
+<!-- pasar los valores por patametro los cuales los va a resolver el controller -->
+<!-- desde la vista se esta mandando al controller, este ultimo es el que tiene que resolver las cuentas -->
+		<li><a href="sumar?num1=700&num2=300">Suma</a></li>
+		<li><a href="restar?num1=80&num2=15">Resta</a></li>
+		<li><a href="mult?num1=20&num2=30">Multiplicacion</a></li>
+		<li><a href="div?num1=380&num2=40">Division</a></li>
+		<li><a href="raiz?num1=9&num2=2">Raiz</a></li>
+		<li><a href="potencia?num1=2&num2=3">Potencia</a></li>
+	</ul>
+</body>
+</html>
